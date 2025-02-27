@@ -10,4 +10,12 @@ public class SimCardActivator {
         SpringApplication.run(SimCardActivator.class, args);
     }
 
+    public static void main(String[] args) {
+        RestController.run(SimCardActivator.class, args);
+        {
+            "iccid": string,
+                "customerEmail": string,
+                "success": boolean,
+                }
+    }   
 }
